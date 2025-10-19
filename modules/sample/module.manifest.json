@@ -1,11 +1,15 @@
 {
   "name": "sample",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reference module used for demonstrations and regression testing of the Codepic CLI.",
   "include": [
     "modules/sample/sample.tasks.ps1",
     "modules/sample/module.manifest.json",
     ".github/instructions/sample.tasks.instructions.md"
   ],
-  "exclude": []
+  "exclude": [],
+  "source": {
+    "git": "https://github.com/codepic/Codepic.Cli.Sample.git",
+    "tagPrefix": "v"
+  }
 }

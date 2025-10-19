@@ -31,9 +31,10 @@ begin {
 process {
     <#
         .SYNOPSIS
-            Outputs a friendly greeting.
+            Outputs a friendly greeting....
         .DESCRIPTION
             Demonstrates a minimal task implementation by writing a green greeting to the console.
+            This task is designed to showcase the basic structure and functionality of a Codepic CLI task.
         .PARAMETER Who
             The recipient of the greeting message.
         .EXAMPLE
