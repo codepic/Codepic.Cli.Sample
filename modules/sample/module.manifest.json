@@ -1,0 +1,11 @@
+{
+  "name": "sample",
+  "version": "0.1.1",
+  "description": "Reference module used for demonstrations and regression testing of the Codepic CLI.",
+  "include": [
+    "modules/sample/sample.tasks.ps1",
+    "modules/sample/module.manifest.json",
+    ".github/instructions/sample.tasks.instructions.md"
+  ],
+  "exclude": []
+}
